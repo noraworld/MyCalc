@@ -9,11 +9,18 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    var price: Int = 0
+    var percent: Int = 0
+
+    @IBOutlet weak var resultField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let percentValue = Float(percent) / 100
+        let discountPrice = Float(price) * percentValue
+        let percentOffPrice = price - Int(discountPrice)
+        resultField.text = "\(percentOffPrice)"
     }
 
     override func didReceiveMemoryWarning() {

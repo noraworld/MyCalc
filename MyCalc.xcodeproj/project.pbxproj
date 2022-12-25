@@ -12,6 +12,8 @@
 		2192D4FA1F14FF7100D974BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2192D4F81F14FF7100D974BC /* Main.storyboard */; };
 		2192D4FC1F14FF7100D974BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2192D4FB1F14FF7100D974BC /* Assets.xcassets */; };
 		2192D4FF1F14FF7100D974BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2192D4FD1F14FF7100D974BC /* LaunchScreen.storyboard */; };
+		2192D5091F150A4C00D974BC /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192D5081F150A4C00D974BC /* PercentViewController.swift */; };
+		2192D50B1F150CE900D974BC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192D50A1F150CE900D974BC /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2192D4FB1F14FF7100D974BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2192D4FE1F14FF7100D974BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2192D5001F14FF7100D974BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2192D5081F150A4C00D974BC /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PercentViewController.swift; path = ../PercentViewController.swift; sourceTree = "<group>"; };
+		2192D50A1F150CE900D974BC /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				2192D4F41F14FF7100D974BC /* AppDelegate.swift */,
 				2192D4F61F14FF7100D974BC /* ViewController.swift */,
+				2192D5081F150A4C00D974BC /* PercentViewController.swift */,
+				2192D50A1F150CE900D974BC /* ResultViewController.swift */,
 				2192D4F81F14FF7100D974BC /* Main.storyboard */,
 				2192D4FB1F14FF7100D974BC /* Assets.xcassets */,
 				2192D4FD1F14FF7100D974BC /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				2192D4F71F14FF7100D974BC /* ViewController.swift in Sources */,
 				2192D4F51F14FF7100D974BC /* AppDelegate.swift in Sources */,
+				2192D5091F150A4C00D974BC /* PercentViewController.swift in Sources */,
+				2192D50B1F150CE900D974BC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
